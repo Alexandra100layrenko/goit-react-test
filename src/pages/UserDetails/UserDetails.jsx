@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link, Outlet, useParams } from 'react-router-dom';
-import { fetchUserById } from '../../Header/api';
+import { fetchUserById } from '../../services/api';
 
 const UserDetails = () => {
     const {userId} = useParams();

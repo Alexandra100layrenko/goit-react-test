@@ -1,13 +1,13 @@
 import { Route, Routes } from 'react-router-dom'
 import Header from './Header/Header'
-import Home from './pages/Home/Home'
-import About from './pages/About/About'
-import NotFound from './pages/NotFound/NotFound'
+import Home from '../pages/Home/Home'
+import About from '../pages/About/About'
+import NotFound from '../pages/NotFound/NotFound'
 import Team from './NestedRoutes/Team'
 import Aim from './NestedRoutes/Aim'
 import Company from './NestedRoutes/Company'
-import Users from './pages/Users/Users'
-import UserDetails from './pages/UserDetails/UserDetails'
+import Users from '../pages/Users/Users'
+import UserDetails from '../pages/UserDetails/UserDetails'
 import Posts from './NestedRoutes/Posts'
 
 function App() {
