@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    background-color: rgb(191, 191, 185);
+    color: #242424;
+    margin: 0 auto;
+}
+
+.nav{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    a{
+        font-weight: 500;
+        color: #242424;
+        padding-right: 10px;
+        text-decoration: none;
+    }
+    .active{
+        text-decoration: underline;
+        font-weight: 400;
+        color: #787777;
+    }
+}
